@@ -1,0 +1,70 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 2px solid #0d2440;
+}
+.item_in_progress {
+  background: #ffffbf;
+}
+.item_completed {
+  background: rgb(140, 250, 140);
+}
+
+.text {
+  margin-bottom: 10px;
+}
+.text b {
+  color: #6b7684;
+}
+
+.select {
+  font-family: cursive, sans-serif;
+  cursor: pointer;
+  padding: 4px 8px;
+  margin-bottom: 10px;
+  border: 1px solid #e8ecf0;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #3b4047;
+}
+
+.bottom_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.deleteButton {
+  font-family: cursive, sans-serif;
+  padding: 6px 12px;
+  background-color: #fee2e2;
+  color: #ef4444;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.deleteButton:hover {
+  background-color: #f2f2f2;
+}
+
+.timeInfo {
+  color: #6b7684;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.timeLabel {
+  color: #6b7684;
+  margin-right: 4px;
+}
+
+.timeValue {
+  color: #0d2440;
+  font-weight: 500;
+}

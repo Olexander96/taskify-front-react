@@ -1,0 +1,34 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #0d2440;
+  font-size: 18px;
+}
+
+.taskCount {
+  background-color: #f4a261;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.seeAll {
+  color: #6b7684;
+  font-size: 14px;
+  text-decoration: none;
+}
