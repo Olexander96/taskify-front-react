@@ -29,7 +29,7 @@ const App = () => {
     const CURRENT_SERVER_URL = `${SERVER_URL}/add-task`;
     addNewTask(taskTitle, taskText, status, CURRENT_SERVER_URL)
       .then((addedTask) => {
-        setTasks([...tasks, addedTask]);
+        setTasks([addedTask, ...tasks]);
       })
       .catch(() => {
         setTasks(tasks);
